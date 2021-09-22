@@ -1,7 +1,7 @@
 variable "associated_vpcs" {
   description = "List of VPC IDs to associate rule to"
   type        = list(string)
-  default     = [""]
+  default     = []
 }
 
 variable "forward_domain" {
