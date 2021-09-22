@@ -4,6 +4,11 @@ variable "associated_vpcs" {
   default     = []
 }
 
+variable "rule_name" {
+  description = "Domain name to forward requests for"
+  type        = string
+}
+
 variable "forward_domain" {
   description = "Domain name to forward requests for"
   type        = string
